@@ -14,6 +14,10 @@
 		2AA0FBB621CA51110022770A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2AA0FBB421CA51110022770A /* LaunchScreen.storyboard */; };
 		2AA0FBC121CA51120022770A /* hyoi2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA0FBC021CA51120022770A /* hyoi2Tests.swift */; };
 		2AA0FBCC21CA51120022770A /* hyoi2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA0FBCB21CA51120022770A /* hyoi2UITests.swift */; };
+		2AA0FBDA21CA52C20022770A /* 開幕ロゴ.png in Resources */ = {isa = PBXBuildFile; fileRef = 2AA0FBD921CA52C20022770A /* 開幕ロゴ.png */; };
+		2AA0FBDC21CA536B0022770A /* hyoi_icn.png in Resources */ = {isa = PBXBuildFile; fileRef = 2AA0FBDB21CA536A0022770A /* hyoi_icn.png */; };
+		2AA0FBDE21CA551C0022770A /* 汎用ボタン.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2AA0FBDD21CA551C0022770A /* 汎用ボタン.jpg */; };
+		2AA0FBE221CA59520022770A /* 戻る.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2AA0FBE121CA59510022770A /* 戻る.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +51,10 @@
 		2AA0FBC721CA51120022770A /* hyoi2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = hyoi2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2AA0FBCB21CA51120022770A /* hyoi2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hyoi2UITests.swift; sourceTree = "<group>"; };
 		2AA0FBCD21CA51120022770A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2AA0FBD921CA52C20022770A /* 開幕ロゴ.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "開幕ロゴ.png"; sourceTree = "<group>"; };
+		2AA0FBDB21CA536A0022770A /* hyoi_icn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hyoi_icn.png; sourceTree = "<group>"; };
+		2AA0FBDD21CA551C0022770A /* 汎用ボタン.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "汎用ボタン.jpg"; sourceTree = "<group>"; };
+		2AA0FBE121CA59510022770A /* 戻る.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "戻る.jpg"; path = "../../../Downloads/戻る.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +89,10 @@
 				2AA0FBBF21CA51120022770A /* hyoi2Tests */,
 				2AA0FBCA21CA51120022770A /* hyoi2UITests */,
 				2AA0FBA921CA510D0022770A /* Products */,
+				2AA0FBD921CA52C20022770A /* 開幕ロゴ.png */,
+				2AA0FBDB21CA536A0022770A /* hyoi_icn.png */,
+				2AA0FBDD21CA551C0022770A /* 汎用ボタン.jpg */,
+				2AA0FBE121CA59510022770A /* 戻る.jpg */,
 			);
 			sourceTree = "<group>";
 		};
@@ -230,8 +242,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				2AA0FBB621CA51110022770A /* LaunchScreen.storyboard in Resources */,
+				2AA0FBDA21CA52C20022770A /* 開幕ロゴ.png in Resources */,
 				2AA0FBB321CA51110022770A /* Assets.xcassets in Resources */,
+				2AA0FBDC21CA536B0022770A /* hyoi_icn.png in Resources */,
 				2AA0FBB121CA510D0022770A /* Main.storyboard in Resources */,
+				2AA0FBDE21CA551C0022770A /* 汎用ボタン.jpg in Resources */,
+				2AA0FBE221CA59520022770A /* 戻る.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
