@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2A15BDB32262E558006A6CDE /* PageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A15BDB22262E558006A6CDE /* PageController.swift */; };
 		2AA0FBAC21CA510D0022770A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA0FBAB21CA510D0022770A /* AppDelegate.swift */; };
 		2AA0FBAE21CA510D0022770A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA0FBAD21CA510D0022770A /* ViewController.swift */; };
 		2AA0FBB121CA510D0022770A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2AA0FBAF21CA510D0022770A /* Main.storyboard */; };
@@ -14,12 +15,7 @@
 		2AA0FBB621CA51110022770A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2AA0FBB421CA51110022770A /* LaunchScreen.storyboard */; };
 		2AA0FBC121CA51120022770A /* hyoi2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA0FBC021CA51120022770A /* hyoi2Tests.swift */; };
 		2AA0FBCC21CA51120022770A /* hyoi2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA0FBCB21CA51120022770A /* hyoi2UITests.swift */; };
-		2AA0FBDA21CA52C20022770A /* 開幕ロゴ.png in Resources */ = {isa = PBXBuildFile; fileRef = 2AA0FBD921CA52C20022770A /* 開幕ロゴ.png */; };
-		2AA0FBDC21CA536B0022770A /* hyoi_icn.png in Resources */ = {isa = PBXBuildFile; fileRef = 2AA0FBDB21CA536A0022770A /* hyoi_icn.png */; };
-		2AA0FBDE21CA551C0022770A /* 汎用ボタン.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2AA0FBDD21CA551C0022770A /* 汎用ボタン.jpg */; };
-		2AA0FBE221CA59520022770A /* 戻る.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2AA0FBE121CA59510022770A /* 戻る.jpg */; };
-		2AEAC09721D6ED6700A8D06D /* ボイチャ.png in Resources */ = {isa = PBXBuildFile; fileRef = 2AEAC09621D6ED6700A8D06D /* ボイチャ.png */; };
-		2AEAC09921D6F0E000A8D06D /* 十字ボタン.png in Resources */ = {isa = PBXBuildFile; fileRef = 2AEAC09821D6F0DD00A8D06D /* 十字ボタン.png */; };
+		2AAD671C226096E100675D9E /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AAD671B226096E100675D9E /* Home.swift */; };
 		2AEAC09C21D6F3FC00A8D06D /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AEAC09B21D6F3FC00A8D06D /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
@@ -41,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2A15BDB22262E558006A6CDE /* PageController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageController.swift; sourceTree = "<group>"; };
 		2AA0FBA821CA510D0022770A /* hyoi2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hyoi2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2AA0FBAB21CA510D0022770A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2AA0FBAD21CA510D0022770A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -54,12 +51,7 @@
 		2AA0FBC721CA51120022770A /* hyoi2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = hyoi2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2AA0FBCB21CA51120022770A /* hyoi2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hyoi2UITests.swift; sourceTree = "<group>"; };
 		2AA0FBCD21CA51120022770A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2AA0FBD921CA52C20022770A /* 開幕ロゴ.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "開幕ロゴ.png"; sourceTree = "<group>"; };
-		2AA0FBDB21CA536A0022770A /* hyoi_icn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hyoi_icn.png; sourceTree = "<group>"; };
-		2AA0FBDD21CA551C0022770A /* 汎用ボタン.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "汎用ボタン.jpg"; sourceTree = "<group>"; };
-		2AA0FBE121CA59510022770A /* 戻る.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "戻る.jpg"; path = "../../../Downloads/戻る.jpg"; sourceTree = "<group>"; };
-		2AEAC09621D6ED6700A8D06D /* ボイチャ.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ボイチャ.png"; sourceTree = "<group>"; };
-		2AEAC09821D6F0DD00A8D06D /* 十字ボタン.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "十字ボタン.png"; sourceTree = "<group>"; };
+		2AAD671B226096E100675D9E /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 		2AEAC09B21D6F3FC00A8D06D /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -96,12 +88,6 @@
 				2AA0FBBF21CA51120022770A /* hyoi2Tests */,
 				2AA0FBCA21CA51120022770A /* hyoi2UITests */,
 				2AA0FBA921CA510D0022770A /* Products */,
-				2AA0FBD921CA52C20022770A /* 開幕ロゴ.png */,
-				2AA0FBDB21CA536A0022770A /* hyoi_icn.png */,
-				2AA0FBDD21CA551C0022770A /* 汎用ボタン.jpg */,
-				2AA0FBE121CA59510022770A /* 戻る.jpg */,
-				2AEAC09621D6ED6700A8D06D /* ボイチャ.png */,
-				2AEAC09821D6F0DD00A8D06D /* 十字ボタン.png */,
 				2AEAC09A21D6F3FC00A8D06D /* Frameworks */,
 			);
 			sourceTree = "<group>";
@@ -121,9 +107,11 @@
 			children = (
 				2AA0FBAB21CA510D0022770A /* AppDelegate.swift */,
 				2AA0FBAD21CA510D0022770A /* ViewController.swift */,
+				2A15BDB22262E558006A6CDE /* PageController.swift */,
+				2AAD671B226096E100675D9E /* Home.swift */,
 				2AA0FBAF21CA510D0022770A /* Main.storyboard */,
-				2AA0FBB221CA51110022770A /* Assets.xcassets */,
 				2AA0FBB421CA51110022770A /* LaunchScreen.storyboard */,
+				2AA0FBB221CA51110022770A /* Assets.xcassets */,
 				2AA0FBB721CA51110022770A /* Info.plist */,
 			);
 			path = hyoi2;
@@ -268,14 +256,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				2AA0FBB621CA51110022770A /* LaunchScreen.storyboard in Resources */,
-				2AA0FBDA21CA52C20022770A /* 開幕ロゴ.png in Resources */,
 				2AA0FBB321CA51110022770A /* Assets.xcassets in Resources */,
-				2AA0FBDC21CA536B0022770A /* hyoi_icn.png in Resources */,
 				2AA0FBB121CA510D0022770A /* Main.storyboard in Resources */,
-				2AEAC09721D6ED6700A8D06D /* ボイチャ.png in Resources */,
-				2AA0FBDE21CA551C0022770A /* 汎用ボタン.jpg in Resources */,
-				2AEAC09921D6F0E000A8D06D /* 十字ボタン.png in Resources */,
-				2AA0FBE221CA59520022770A /* 戻る.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,7 +282,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2A15BDB32262E558006A6CDE /* PageController.swift in Sources */,
 				2AA0FBAE21CA510D0022770A /* ViewController.swift in Sources */,
+				2AAD671C226096E100675D9E /* Home.swift in Sources */,
 				2AA0FBAC21CA510D0022770A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
