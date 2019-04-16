@@ -38,6 +38,7 @@
 
 /* Begin PBXFileReference section */
 		2A15BDB22262E558006A6CDE /* PageController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageController.swift; sourceTree = "<group>"; };
+		2A15BDB422649096006A6CDE /* hyoi2.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = hyoi2.entitlements; sourceTree = "<group>"; };
 		2AA0FBA821CA510D0022770A /* hyoi2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hyoi2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2AA0FBAB21CA510D0022770A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2AA0FBAD21CA510D0022770A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -105,6 +106,7 @@
 		2AA0FBAA21CA510D0022770A /* hyoi2 */ = {
 			isa = PBXGroup;
 			children = (
+				2A15BDB422649096006A6CDE /* hyoi2.entitlements */,
 				2AA0FBAB21CA510D0022770A /* AppDelegate.swift */,
 				2AA0FBAD21CA510D0022770A /* ViewController.swift */,
 				2A15BDB22262E558006A6CDE /* PageController.swift */,
@@ -214,6 +216,9 @@
 						SystemCapabilities = {
 							com.apple.BackgroundModes = {
 								enabled = 1;
+							};
+							com.apple.InterAppAudio = {
+								enabled = 0;
 							};
 							com.apple.Maps.iOS = {
 								enabled = 1;
