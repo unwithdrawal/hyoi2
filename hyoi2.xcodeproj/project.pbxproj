@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		2A15BDB32262E558006A6CDE /* PageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A15BDB22262E558006A6CDE /* PageController.swift */; };
+		2A70268322698DCF0078F929 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A70268222698DCF0078F929 /* FirstViewController.swift */; };
 		2AA0FBAC21CA510D0022770A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA0FBAB21CA510D0022770A /* AppDelegate.swift */; };
 		2AA0FBAE21CA510D0022770A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA0FBAD21CA510D0022770A /* ViewController.swift */; };
 		2AA0FBB121CA510D0022770A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2AA0FBAF21CA510D0022770A /* Main.storyboard */; };
@@ -15,7 +16,6 @@
 		2AA0FBB621CA51110022770A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2AA0FBB421CA51110022770A /* LaunchScreen.storyboard */; };
 		2AA0FBC121CA51120022770A /* hyoi2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA0FBC021CA51120022770A /* hyoi2Tests.swift */; };
 		2AA0FBCC21CA51120022770A /* hyoi2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA0FBCB21CA51120022770A /* hyoi2UITests.swift */; };
-		2AAD671C226096E100675D9E /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AAD671B226096E100675D9E /* Home.swift */; };
 		2AEAC09C21D6F3FC00A8D06D /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AEAC09B21D6F3FC00A8D06D /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
@@ -39,6 +39,7 @@
 /* Begin PBXFileReference section */
 		2A15BDB22262E558006A6CDE /* PageController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageController.swift; sourceTree = "<group>"; };
 		2A15BDB422649096006A6CDE /* hyoi2.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = hyoi2.entitlements; sourceTree = "<group>"; };
+		2A70268222698DCF0078F929 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
 		2AA0FBA821CA510D0022770A /* hyoi2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hyoi2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2AA0FBAB21CA510D0022770A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2AA0FBAD21CA510D0022770A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -52,7 +53,6 @@
 		2AA0FBC721CA51120022770A /* hyoi2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = hyoi2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2AA0FBCB21CA51120022770A /* hyoi2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hyoi2UITests.swift; sourceTree = "<group>"; };
 		2AA0FBCD21CA51120022770A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2AAD671B226096E100675D9E /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 		2AEAC09B21D6F3FC00A8D06D /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -110,7 +110,7 @@
 				2AA0FBAB21CA510D0022770A /* AppDelegate.swift */,
 				2AA0FBAD21CA510D0022770A /* ViewController.swift */,
 				2A15BDB22262E558006A6CDE /* PageController.swift */,
-				2AAD671B226096E100675D9E /* Home.swift */,
+				2A70268222698DCF0078F929 /* FirstViewController.swift */,
 				2AA0FBAF21CA510D0022770A /* Main.storyboard */,
 				2AA0FBB421CA51110022770A /* LaunchScreen.storyboard */,
 				2AA0FBB221CA51110022770A /* Assets.xcassets */,
@@ -289,8 +289,8 @@
 			files = (
 				2A15BDB32262E558006A6CDE /* PageController.swift in Sources */,
 				2AA0FBAE21CA510D0022770A /* ViewController.swift in Sources */,
-				2AAD671C226096E100675D9E /* Home.swift in Sources */,
 				2AA0FBAC21CA510D0022770A /* AppDelegate.swift in Sources */,
+				2A70268322698DCF0078F929 /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

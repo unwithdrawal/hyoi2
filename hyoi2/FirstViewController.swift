@@ -1,14 +1,14 @@
 //
-//  Home.swift
+//  FirstViewController.swift
 //  hyoi2
 //
-//  Created by Sota Saito on 2019/04/12.
+//  Created by Sota Saito on 2019/04/19.
 //  Copyright © 2019 unwithdrawal. All rights reserved.
 //
 
 import UIKit
 
-class Home: UIViewController {
+class FirstViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -16,6 +16,11 @@ class Home: UIViewController {
         // Do any additional setup after loading the view.
     }
     
+
+    // AppDeligate.swift
+    
+   
+    }
 
     /*
     // MARK: - Navigation
@@ -27,4 +32,4 @@ class Home: UIViewController {
     }
     */
 
-}
+
