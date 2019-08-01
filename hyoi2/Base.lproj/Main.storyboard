@@ -35,11 +35,11 @@
                                 <state key="normal" image="config"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="U2x-1S-uYO">
-                                <rect key="frame" x="208" y="645" width="167" height="22"/>
+                                <rect key="frame" x="208" y="567" width="167" height="100"/>
                                 <state key="normal" image="hyoi_Button"/>
                             </button>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="akf-p8-bmd">
-                                <rect key="frame" x="0.0" y="645" width="200" height="100"/>
+                                <rect key="frame" x="0.0" y="567" width="200" height="100"/>
                                 <color key="backgroundColor" red="0.5" green="0.5" blue="0.5" alpha="0.5" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="100" id="Jru-Ai-VVt"/>
@@ -354,7 +354,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="グラデーション" translatesAutoresizingMaskIntoConstraints="NO" id="kJ4-ev-SDT">
-                                <rect key="frame" x="0.0" y="387" width="375" height="280.00000000000045"/>
+                                <rect key="frame" x="0.0" y="387" width="375" height="280"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="kJ4-ev-SDT" secondAttribute="height" multiplier="320:239" id="kmd-mv-jxR"/>
                                 </constraints>
@@ -427,7 +427,7 @@
                                 </constraints>
                             </view>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="グラデーション" translatesAutoresizingMaskIntoConstraints="NO" id="fme-X8-vpg">
-                                <rect key="frame" x="0.0" y="341" width="375" height="279.00000000000045"/>
+                                <rect key="frame" x="0.0" y="341" width="375" height="279"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="fme-X8-vpg" secondAttribute="height" multiplier="160:119" id="z2h-Ww-t4I"/>
                                 </constraints>
@@ -436,7 +436,7 @@
                                 <rect key="frame" x="0.0" y="20" width="375" height="47"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1yV-xJ-u9r">
-                                        <rect key="frame" x="330" y="6" width="29" height="29"/>
+                                        <rect key="frame" x="337" y="6" width="22" height="22"/>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="1yV-xJ-u9r" secondAttribute="height" multiplier="1:1" id="a77-wL-DbW"/>
                                         </constraints>
@@ -479,7 +479,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="グラデーション" translatesAutoresizingMaskIntoConstraints="NO" id="qPe-vg-wgW">
-                                <rect key="frame" x="0.0" y="388" width="375" height="279.00000000000045"/>
+                                <rect key="frame" x="0.0" y="388" width="375" height="279"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="qPe-vg-wgW" secondAttribute="height" multiplier="207:154" id="v9y-5X-4T5"/>
                                 </constraints>
@@ -589,13 +589,13 @@
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="65.5"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5B9-7J-X0w">
-                                        <rect key="frame" x="344" y="35.5" width="16" height="22"/>
+                                        <rect key="frame" x="297" y="27.5" width="63" height="30"/>
                                         <state key="normal" image="保存">
                                             <color key="titleColor" red="0.13664317519999999" green="1" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="78J-My-MSQ">
-                                        <rect key="frame" x="16" y="21.5" width="16" height="32"/>
+                                        <rect key="frame" x="16" y="31.5" width="11" height="22"/>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="78J-My-MSQ" secondAttribute="height" multiplier="1:2" id="GYf-ip-qL5"/>
                                         </constraints>
@@ -662,7 +662,7 @@
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="hyoi" translatesAutoresizingMaskIntoConstraints="NO" id="YGY-yD-hqd">
-                                        <rect key="frame" x="40" y="75" width="295.00000000000011" height="158"/>
+                                        <rect key="frame" x="40" y="75" width="295" height="158"/>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="YGY-yD-hqd" secondAttribute="height" multiplier="239:128" id="Gpn-bj-qKA"/>
                                         </constraints>
@@ -883,7 +883,7 @@
                                 </constraints>
                             </mapView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lkb-Rb-OIZ">
-                                <rect key="frame" x="324" y="348" width="35" height="22"/>
+                                <rect key="frame" x="231" y="290" width="128" height="80"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="Lkb-Rb-OIZ" secondAttribute="height" multiplier="8:5" id="fj1-wo-6rx"/>
                                 </constraints>
@@ -945,7 +945,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="初回起動時" translatesAutoresizingMaskIntoConstraints="NO" id="Pko-dH-2Gh">
-                                <rect key="frame" x="0.0" y="20" width="375.00000000000023" height="647"/>
+                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b9p-XN-5Zv">
                                 <rect key="frame" x="26" y="594" width="138" height="30"/>
