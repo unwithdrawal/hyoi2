@@ -7,8 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2A15BDB32262E558006A6CDE /* PageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A15BDB22262E558006A6CDE /* PageController.swift */; };
-		2A70268322698DCF0078F929 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A70268222698DCF0078F929 /* FirstViewController.swift */; };
+		12C696D48F8B992FD7DC6E80 /* Pods_hyoi2Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2207EB5D45BF1E3F9F5B7136 /* Pods_hyoi2Tests.framework */; };
 		2AA0FBAC21CA510D0022770A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA0FBAB21CA510D0022770A /* AppDelegate.swift */; };
 		2AA0FBAE21CA510D0022770A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA0FBAD21CA510D0022770A /* ViewController.swift */; };
 		2AA0FBB121CA510D0022770A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2AA0FBAF21CA510D0022770A /* Main.storyboard */; };
@@ -17,6 +16,8 @@
 		2AA0FBC121CA51120022770A /* hyoi2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA0FBC021CA51120022770A /* hyoi2Tests.swift */; };
 		2AA0FBCC21CA51120022770A /* hyoi2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA0FBCB21CA51120022770A /* hyoi2UITests.swift */; };
 		2AEAC09C21D6F3FC00A8D06D /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AEAC09B21D6F3FC00A8D06D /* MapKit.framework */; };
+		3A796F6F3F8CB2ADBB93C229 /* Pods_hyoi2UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA5A48AD3A7E2DAE25FA2C1D /* Pods_hyoi2UITests.framework */; };
+		BAFE10B1DC823E6470981345 /* Pods_hyoi2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A46B7CF3ECE22DEB358F62F1 /* Pods_hyoi2.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,9 +38,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		2A15BDB22262E558006A6CDE /* PageController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageController.swift; sourceTree = "<group>"; };
+		01C74CF950963D94207AF303 /* Pods-hyoi2UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hyoi2UITests.debug.xcconfig"; path = "Target Support Files/Pods-hyoi2UITests/Pods-hyoi2UITests.debug.xcconfig"; sourceTree = "<group>"; };
+		12B03A57C27A999F210E7C94 /* Pods-hyoi2Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hyoi2Tests.release.xcconfig"; path = "Target Support Files/Pods-hyoi2Tests/Pods-hyoi2Tests.release.xcconfig"; sourceTree = "<group>"; };
+		2207EB5D45BF1E3F9F5B7136 /* Pods_hyoi2Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_hyoi2Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A15BDB422649096006A6CDE /* hyoi2.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = hyoi2.entitlements; sourceTree = "<group>"; };
-		2A70268222698DCF0078F929 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
 		2AA0FBA821CA510D0022770A /* hyoi2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hyoi2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2AA0FBAB21CA510D0022770A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2AA0FBAD21CA510D0022770A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -54,6 +56,12 @@
 		2AA0FBCB21CA51120022770A /* hyoi2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hyoi2UITests.swift; sourceTree = "<group>"; };
 		2AA0FBCD21CA51120022770A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2AEAC09B21D6F3FC00A8D06D /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		813C0CBAE2D9AAE33F1C0784 /* Pods-hyoi2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hyoi2.release.xcconfig"; path = "Target Support Files/Pods-hyoi2/Pods-hyoi2.release.xcconfig"; sourceTree = "<group>"; };
+		8356884719256D805508E0B1 /* Pods-hyoi2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hyoi2.debug.xcconfig"; path = "Target Support Files/Pods-hyoi2/Pods-hyoi2.debug.xcconfig"; sourceTree = "<group>"; };
+		90D0D5D1495D718C864B6747 /* Pods-hyoi2Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hyoi2Tests.debug.xcconfig"; path = "Target Support Files/Pods-hyoi2Tests/Pods-hyoi2Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		A46B7CF3ECE22DEB358F62F1 /* Pods_hyoi2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_hyoi2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA5A48AD3A7E2DAE25FA2C1D /* Pods_hyoi2UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_hyoi2UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9998B4A7B7883C2E9794D45 /* Pods-hyoi2UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hyoi2UITests.release.xcconfig"; path = "Target Support Files/Pods-hyoi2UITests/Pods-hyoi2UITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +70,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2AEAC09C21D6F3FC00A8D06D /* MapKit.framework in Frameworks */,
+				BAFE10B1DC823E6470981345 /* Pods_hyoi2.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -69,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				12C696D48F8B992FD7DC6E80 /* Pods_hyoi2Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A796F6F3F8CB2ADBB93C229 /* Pods_hyoi2UITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,6 +101,7 @@
 				2AA0FBCA21CA51120022770A /* hyoi2UITests */,
 				2AA0FBA921CA510D0022770A /* Products */,
 				2AEAC09A21D6F3FC00A8D06D /* Frameworks */,
+				607BFE5C62F5CA7CD8C05E65 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -109,8 +121,6 @@
 				2A15BDB422649096006A6CDE /* hyoi2.entitlements */,
 				2AA0FBAB21CA510D0022770A /* AppDelegate.swift */,
 				2AA0FBAD21CA510D0022770A /* ViewController.swift */,
-				2A15BDB22262E558006A6CDE /* PageController.swift */,
-				2A70268222698DCF0078F929 /* FirstViewController.swift */,
 				2AA0FBAF21CA510D0022770A /* Main.storyboard */,
 				2AA0FBB421CA51110022770A /* LaunchScreen.storyboard */,
 				2AA0FBB221CA51110022770A /* Assets.xcassets */,
@@ -141,8 +151,25 @@
 			isa = PBXGroup;
 			children = (
 				2AEAC09B21D6F3FC00A8D06D /* MapKit.framework */,
+				A46B7CF3ECE22DEB358F62F1 /* Pods_hyoi2.framework */,
+				2207EB5D45BF1E3F9F5B7136 /* Pods_hyoi2Tests.framework */,
+				BA5A48AD3A7E2DAE25FA2C1D /* Pods_hyoi2UITests.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		607BFE5C62F5CA7CD8C05E65 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8356884719256D805508E0B1 /* Pods-hyoi2.debug.xcconfig */,
+				813C0CBAE2D9AAE33F1C0784 /* Pods-hyoi2.release.xcconfig */,
+				90D0D5D1495D718C864B6747 /* Pods-hyoi2Tests.debug.xcconfig */,
+				12B03A57C27A999F210E7C94 /* Pods-hyoi2Tests.release.xcconfig */,
+				01C74CF950963D94207AF303 /* Pods-hyoi2UITests.debug.xcconfig */,
+				F9998B4A7B7883C2E9794D45 /* Pods-hyoi2UITests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -152,6 +179,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2AA0FBD021CA51120022770A /* Build configuration list for PBXNativeTarget "hyoi2" */;
 			buildPhases = (
+				CF11226513F27B92FE2FCECE /* [CP] Check Pods Manifest.lock */,
 				2AA0FBA421CA510D0022770A /* Sources */,
 				2AA0FBA521CA510D0022770A /* Frameworks */,
 				2AA0FBA621CA510D0022770A /* Resources */,
@@ -169,6 +197,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2AA0FBD321CA51120022770A /* Build configuration list for PBXNativeTarget "hyoi2Tests" */;
 			buildPhases = (
+				4BD772B2B55D712EC109313B /* [CP] Check Pods Manifest.lock */,
 				2AA0FBB821CA51120022770A /* Sources */,
 				2AA0FBB921CA51120022770A /* Frameworks */,
 				2AA0FBBA21CA51120022770A /* Resources */,
@@ -187,6 +216,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2AA0FBD621CA51120022770A /* Build configuration list for PBXNativeTarget "hyoi2UITests" */;
 			buildPhases = (
+				A5E7EF95299AB96676CCA71B /* [CP] Check Pods Manifest.lock */,
 				2AA0FBC321CA51120022770A /* Sources */,
 				2AA0FBC421CA51120022770A /* Frameworks */,
 				2AA0FBC521CA51120022770A /* Resources */,
@@ -282,15 +312,82 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4BD772B2B55D712EC109313B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-hyoi2Tests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A5E7EF95299AB96676CCA71B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-hyoi2UITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CF11226513F27B92FE2FCECE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-hyoi2-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		2AA0FBA421CA510D0022770A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2A15BDB32262E558006A6CDE /* PageController.swift in Sources */,
 				2AA0FBAE21CA510D0022770A /* ViewController.swift in Sources */,
 				2AA0FBAC21CA510D0022770A /* AppDelegate.swift in Sources */,
-				2A70268322698DCF0078F929 /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -463,12 +560,13 @@
 		};
 		2AA0FBD121CA51120022770A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8356884719256D805508E0B1 /* Pods-hyoi2.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 98LF898D63;
 				INFOPLIST_FILE = hyoi2/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -482,12 +580,13 @@
 		};
 		2AA0FBD221CA51120022770A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 813C0CBAE2D9AAE33F1C0784 /* Pods-hyoi2.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 98LF898D63;
 				INFOPLIST_FILE = hyoi2/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -501,6 +600,7 @@
 		};
 		2AA0FBD421CA51120022770A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 90D0D5D1495D718C864B6747 /* Pods-hyoi2Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -522,6 +622,7 @@
 		};
 		2AA0FBD521CA51120022770A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 12B03A57C27A999F210E7C94 /* Pods-hyoi2Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -543,6 +644,7 @@
 		};
 		2AA0FBD721CA51120022770A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 01C74CF950963D94207AF303 /* Pods-hyoi2UITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -563,6 +665,7 @@
 		};
 		2AA0FBD821CA51120022770A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F9998B4A7B7883C2E9794D45 /* Pods-hyoi2UITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
